@@ -1,0 +1,46 @@
+/* Footer */
+
+#footer {
+	background-attachment: scroll;
+	background-color: #4d9b82;
+	background-image: url("images/bottom-3200.svg");
+	background-position: top center;
+	background-repeat: repeat-x;
+	background-size: 3200px 460px;
+	color: rgba(255, 255, 255, 0.8);
+	margin-top: -260px;
+	padding: calc(460px + 6em) 0 10em 0;
+	position: relative;
+	text-align: center;
+}
+#footer a {
+	color: #ffffff;
+}
+#footer strong, #footer b {
+	color: #ffffff;
+}
+#footer h1, #footer h2, #footer h4, #footer h5, #footer h6 {
+	color: #ffffff;
+}
+#footer h3 {
+	font-size: 10px;
+}
+#footer header p {
+	color: rgba(255, 255, 255, 0.5);
+}
+#footer input[type="submit"], #footer input[type="reset"], #footer input[type="button"], #footer .button {
+	background: #ffffff;
+	box-shadow: inset 0 0 0 1px #ffffff;
+	color: #4eb980;
+}
+#footer input[type="submit"]:hover, #footer input[type="reset"]:hover, #footer input[type="button"]:hover, #footer .button:hover {
+	background: rgba(224, 224, 224, 0.15);
+	color: #ffffff;
+}
+#footer input[type="text"]:focus, #footer input[type="password"]:focus, #footer input[type="email"]:focus, #footer select:focus, #footer textarea:focus {
+	border-color: #ffffff;
+}
+#footer form {
+	margin: 3em;
+	padding: 0px;
+}

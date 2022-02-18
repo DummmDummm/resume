@@ -1,0 +1,92 @@
+@import url("fontawesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
+@import url("footer.css");
+@import url("Header.css");
+@import url("base.css");
+@import url("feature.css");
+@import url("icon.css");
+@import url("bouton.css");
+@import url("form.css");
+
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, a, footer, header, {
+	margin: 0%;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ul {
+	list-style: none;
+}
+
+/* Container */
+
+.container {
+	margin: 0 auto;
+	max-width: 100%;
+	width: 51em;
+}
+.container.medium {
+	width: 60em;
+}
+footer {
+	text-align: center;
+}
+footer.major {
+	border-bottom-width: 1px;
+	border-color: rgba(224, 224, 224, 0.75);
+	border-style: solid;
+	border-top-width: 1px;
+	margin-top: 6em;
+	padding: 4em 0;
+	position: relative;
+}
+footer.major:before, footer.major:after {
+	background: rgba(224, 224, 224, 0.75);
+	content: '';
+	display: block;
+	height: 1px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+footer.major:before {
+	top: 10px;
+}
+footer.major:after {
+	bottom: 10px;
+}
+
+
+/* Main */
+
+#main {
+	padding: 6em 0 5em 0;
+	position: relative;
+	z-index: 1;
+}
+#main:before {
+	background: rgba(224, 224, 224, 0.75);
+	content: '';
+	height: 100%;
+	left: 50%;
+	position: absolute;
+	top: 0;
+	width: 1px;
+	z-index: -1;
+}
+#main header.major, #main footer.major {
+	background: #ffffff;
+}
+#accordionExample {
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 5%;
+}

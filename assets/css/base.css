@@ -1,0 +1,44 @@
+/* Base */
+
+html {
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+}
+body {
+	background: #ffffff;
+}
+body, input, textarea {
+	color: #6e6e6e;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16pt;
+	font-weight: 400;
+	line-height: 1.75em;
+}
+a {
+	border-bottom: dotted 1px;
+	color: #4eb980;
+	text-decoration: none;
+}
+a:hover {
+	border-bottom-color: transparent;
+}
+p, ul, form {
+	margin: 0 0 2em 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #5b5b5b;
+	font-weight: 700;
+	letter-spacing: 0.125em;
+	line-height: 1.75em;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+	text-align: center;
+}
+h2 {
+	font-size: 1.75em;
+}
+h3 {
+	font-size: 1.5em;
+}

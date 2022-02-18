@@ -1,0 +1,21 @@
+/* Bouton */
+
+input[type="submit"], input[type="reset"], input[type="button"], .button {
+	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+	background: #544d55;
+	border-radius: 4px;
+	border: 0;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 0.9em;
+	font-weight: 700;
+	letter-spacing: 0.125em;
+	line-height: 3.25em;
+	min-width: 15em;
+	padding: 0.5em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
